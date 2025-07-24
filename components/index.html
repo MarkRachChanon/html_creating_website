@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Components-JS</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="mb-4">My Cards</h1>
+        <div class="row" id="card-container"></div>
+    </div>
+
+    <template id="card-template">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top" src="" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <button class="btn btn-primary">ดูรายละเอียด</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="./components/card.js"></script>
+</body>
+</html>
